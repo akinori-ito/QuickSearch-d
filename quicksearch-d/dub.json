@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Akinori Ito"
+	],
+	"copyright": "Copyright © 2025, Akinori Ito",
+	"description": "Choose the nearest point from a set of points quickly",
+	"license": "MIT",
+	"name": "quicksearch-d"
+}

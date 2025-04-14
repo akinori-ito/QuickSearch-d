@@ -1,8 +1,11 @@
-# QuickSearch-d
+# QuickSearch
 
-A program to choose a nearest point quickly.
 
-## Overview
+# Experiment
+
+An experiment to measure time and accuracy of the implemented method.
+
+## The quick search method
 
 Consider we have a set of *D*-dimensional points
 *S* = {*x*<sub>1</sub>, …, *x*<sub>*N*</sub>}. The nearest point search
@@ -19,11 +22,7 @@ clusters, where *M* ≪ *N*. The quick search procedures first finds *K*
 nearest points among the centroids of the clusters, and then examines
 all points only in the nearest *K* clusters.
 
-## Experiment
-
-An experiment to measure time and accuracy of the implemented method.
-
-### Experimental conditions
+## Experimental conditions
 
 We created 100,000 points randomly, where one point was a 10-dimensional
 vector. Then we created 100 clusters for doing the quick search. Then we
@@ -34,7 +33,6 @@ times and took an average.
 The computer was a linux server (Ubuntu 22.04 LTS) with Corei9-9820X
 3.3GHz CPU and 96GB memory.
 
-### Results
 ``` r
 library(tidyverse)
 ```
