@@ -1,6 +1,6 @@
 # QuickSearch-d
 
-A program to choose a nearest point quickly.
+A program written in Dlang to choose a nearest point quickly.
 
 ## Overview
 
